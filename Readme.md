@@ -187,6 +187,7 @@ The language codes you can use are:
 - `fr`: French
 - `nl`: Dutch
 - `pt`: Portuguese
+- `ca`: Catalan
 
 ### Using a dictionary
 
