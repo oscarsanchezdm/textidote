@@ -22,6 +22,7 @@ import org.languagetool.language.AmericanEnglish;
 import org.languagetool.language.AustrianGerman;
 import org.languagetool.language.BritishEnglish;
 import org.languagetool.language.CanadianEnglish;
+import org.languagetool.language.Catalan;
 import org.languagetool.language.Dutch;
 import org.languagetool.language.French;
 import org.languagetool.language.GermanyGerman;
@@ -88,6 +89,10 @@ public class LanguageFactory
 		if (s.compareToIgnoreCase("pt_BR") == 0)
 		{
 			return new BrazilianPortuguese();
+		}
+		if (s.compareToIgnoreCase("ca") == 0)
+		{
+			return new Catalan();
 		}
 		return null;
 	}

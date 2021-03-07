@@ -62,6 +62,7 @@ public class LanguageCodeTest
 				"fr",
 				"nl",
 				"pt",
+				"ca",
 				FAKE_LANG // We add a non existent language, to make sure the CLI
 				// does report an error in such a case
 		});
